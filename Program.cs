@@ -70,6 +70,9 @@ namespace ConsoleApp1
                     {
                         Console.WriteLine("Opponent: I draw rock. I win.");
                         Main();
+                    }else
+                    {
+                     Console.WriteLine("ERROR");   
                     }
                     break;
 
@@ -78,9 +81,6 @@ namespace ConsoleApp1
                     Main();
                     break;
             }
-            /*Console.WriteLine(random_number);
-            Console.ReadKey();
-            Main();*/
             Console.ReadKey();
         }
     }
